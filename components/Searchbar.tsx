@@ -80,13 +80,13 @@ const SearchBar = () => {
           name='model'
           value={model}
           onChange={(e) => setModel(e.target.value)}
-          placeholder='Model...'
+          placeholder='Click Search Icon...'
           className='searchbar__input'
         />
         <SearchButton otherClasses='sm:hidden' />
       </div>
       <SearchButton otherClasses='max-sm:hidden' />
-    </form>
+  </form>
   );
 };
 
